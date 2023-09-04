@@ -1,0 +1,135 @@
+h3{
+    height: 40px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#contatos{
+    background-image: linear-gradient(to top, black, #8E6B69);
+}
+
+#contatos  h2{
+    color: #E6DEDD;
+    margin: 10px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 5px rgb(64, 64, 64);
+}
+
+#contatos h3 a{
+    color: #E6DEDD;
+    text-decoration: none;
+}
+
+#contatos h3 a:hover{
+    border-bottom: 2px solid #E6DEDD;
+    background-color: #78666474;
+}
+
+#contatos .container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.whats, .insta, .face, .mail, .local{
+    background-image: url('../imagens/whatsapp\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 32px;
+}
+
+.insta{
+    background-image: url('../imagens/instagram\ \(1\).png');
+}
+
+.face{
+    background-image: url('../imagens/facebook\ \(1\).png');
+}
+
+.mail{
+    background-image: url('../imagens/o-email.png');
+}
+
+.local{
+    background-image: url('../imagens/pin-de-localizacao\ \(1\).png');
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #E6DEDD;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #E6DEDD;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px gray;
+    text-shadow: 2px 2px 5px gray;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #696463;
+    color: white;
+  }
+
+
+  /*desktop*/
+  @media screen and (min-width:1000px){
+    #contatos .container{
+        flex-direction: row;
+    }
+
+    #contatos .container div{
+        width: 50%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+
+ 
+
+    #contatos h2{
+        text-align: center;
+    }
+
+
+  .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .formulario h2{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    
+  }

@@ -1,0 +1,547 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  #whatsappBotao{
+    position: fixed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px gray;
+    transition: all 1s;
+  }
+
+  #whatsappBotao img{
+    width: 50px;
+  }
+
+  #whatsappBotao:hover{
+    background-color: gray;
+    width: 60px;
+    height: 60px;
+  }
+  header{
+    background-color: #E6DEDD;
+  }
+  
+
+  .menu .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 10px;
+  }
+  .menu .container img{
+    width: 200px;
+    margin: 20px px;
+  }
+
+  p{
+    font-weight: 500;
+    text-align: justify;
+  }
+
+  .menu .container nav ul li{
+    list-style: none;
+    display: inline;
+ 
+  }
+
+  .menu .container nav li a{
+    text-decoration: none;
+    color: #8E6B69;
+    font-weight: 500;
+    padding: 10px;
+    transition: 0.5s;
+  }
+
+  .menu .container nav li a:hover{
+    color: #533e3d;
+    font-weight: bolder;
+    border-bottom: 2px solid #8E6B69;
+    background-color: #f7efeecb;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  section {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  section:nth-child(odd){
+    background-color: #8E6B69;
+    color: #FEFAFA;
+  }
+  section:nth-child(even){
+    background-color: #fefafa;
+    color: #8E6B69;
+  }
+
+  .tituloSecao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+
+  }
+
+  .tituloSecao h1{
+    margin: 0px;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px rgb(64, 64, 64);
+  }
+
+  .traco{
+    width: 300px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 10px rgb(64, 64, 64);
+    height: 2px;
+    background-color: #E6DEDD;
+    border-radius: 5px;
+    border: none;
+  }
+  .principaisServicos .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .principaisServicos .container .servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .principaisServicos > h2{
+    margin: 30px;
+    
+  }
+
+  .tituloServico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tituloServico a{
+    text-decoration: none;
+    color: #8E6B69;
+    text-shadow: 1px 1px 5px rgba(64, 64, 64, 0.308);
+  }
+
+
+  .servicoImg, .servicoImg2, .servicoImg3 {
+    height: 200px;
+    width: 100%;
+    background-image: url('../imagens/depilacao-laser-orig-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .servicoImg:hover, .servicoImg2:hover, .servicoImg3:hover{
+    background-size: 105%;
+  }
+  .servicoImg2{
+    background-image: url('../imagens/criofrequencia.jpg');
+  }
+
+  .servicoImg3{
+    background-image: url('../imagens/heccus.jpg');
+  }
+
+  .tituloServico{
+    height: 100px;
+  }
+
+   .outrosServicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+  }
+
+   .outrosServicos > .botao{
+    background-color: #473534;
+    padding: 10px;
+    border: 1px solid #473534;
+    box-shadow: 1px 1px 3px black;
+   }
+
+   .outrosServicos > .botao:hover{
+    background-color: #d4cecd;
+    color: black;
+    font-size: 20px;
+   }
+
+    .outrosServicos > .botao:visited{
+      transform: scale(0.8);
+    }
+
+  .botao {
+    display: inline-block;
+    padding: 30px 50px;
+    background-color: #5045454d;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  .botao:hover {
+    background-color: rgba(255, 255, 255, 0.583);
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+  }
+
+  .tempoMercado .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tempoMercado .container{
+    color: black;
+  }
+
+  .tempoMercado  .container > img{
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px 0px;
+  }
+
+  .tempoMercado  .container > div{
+    padding: 10px;
+  }
+
+  .tempoMercado .container > div{
+    background-color: #FEFAFA;
+    padding: 10px;
+    border-top: 1px solid #533e3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .tempoMercado .container > div div:nth-child(2){
+    margin: 20px;
+    padding: 10px;
+    border-top: 2px solid #533e3d;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tempoMercado .conteudo h2{
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .conteudo p{
+    margin-bottom: 20px;
+  }
+
+  .conteudo a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #533e3d;
+    background-color: #8e6b6923;
+    padding: 5px;
+    transition: all 0.5s;
+    margin-top: 20px;
+  }
+
+  .conteudo a:hover{
+    font-weight: bold;
+    color: white;
+    background-color: #8e6b69;
+    border-radius: 5px;
+  }
+   .imgCircular{
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgba(157, 157, 157, 0.5);
+    box-shadow: 2px 2px 5px black;
+    background-image: url('../imagens/logo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #E6DEDD;
+    transition: all 0.5s;
+    animation: flutuacao 5s infinite;
+  }
+
+  .carrossel img{
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .carrossel{
+    box-shadow: 2px 2px 5px black;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 300px;
+    height: 169px;
+    overflow: hidden;
+  }
+
+  .carrossel ul{
+    list-style: none;
+    display: flex;
+    width: 900px;
+  }
+
+  .carrossel li{
+    position: relative;
+    left: -300px;
+    animation: slide 15s infinite ease-out;
+  }
+
+/*carrossel*/
+
+  @keyframes slide{
+    0%{left: 0px;}
+
+    20%{
+      left: 0px;
+    }
+    
+    30%{left: -300px;}
+
+    50%{
+      left: -300px;
+    }
+
+    60%{
+      left: -600px;
+    }
+
+    90%{
+      left: -600px;
+    }
+
+    100%{
+      left: 0px;
+    }
+  }
+
+  /*imagem circular*/
+  @keyframes flutuacao{
+    50% {
+      transform: translateY(-10%);
+    }
+  }
+
+
+  footer{
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 150px;
+  }
+
+  .containerFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+ .containerFooter div:nth-child(1){
+    border-right: 2px solid #E6DEDD;
+  }
+  .containerFooter div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+  }
+  .containerFooter div:nth-child(2) a{
+    margin-left: 10px;
+    color: #E6DEDD;
+    text-decoration: none;
+  }
+  .containerFooter div:nth-child(2) a:hover{
+    color: #FEFAFA;
+    font-weight: 700;
+  }
+  footer a img{
+    width: 32px;
+    padding-top: 10px;
+  }
+
+  footer p{
+    padding-top: 20px;
+    color: #E6DEDD;
+  }
+
+  footer p > a{
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+  }
+
+  footer p > a:hover{
+    color: rgb(135, 194, 243);
+    text-decoration: none;
+  }
+
+
+
+  /*desktop*/
+  @media screen and (min-width: 1000px) {
+    .container{
+      width: 1000px;
+      padding: 20px 0px;
+      margin: auto;
+    }
+    .menu .container {
+      flex-direction: row;
+    }
+
+    .menu .container a{
+      font-size: 20px;
+    }
+
+    .logoMenu {
+      width: 300px;
+    }
+
+    .principaisServicos .container{
+      flex-direction: column;
+      width: 1000px;
+    }
+
+    .principaisServicos .container .servico{
+      flex-direction: row;
+    }
+
+    .principaisServicos .container .servico:nth-child(2){
+      flex-direction: row-reverse;
+      margin: 20px 0px;
+      text-align: right;
+    }
+
+
+    .tituloServico{
+      width: 400px;
+      font-size: 20px;
+    }
+
+    .tituloServico2{
+      width: 600px;
+    }
+    .servicoImg, .servicoImg2, .servicoImg3 {
+      height: 300px;
+      width: 600px;
+      transition: 1s;
+    }
+  
+    .servicoImg:hover, .servicoImg2:hover, .servicoImg3:hover{
+      width: 650px;
+    }
+
+    .tempoMercado .container{
+      flex-direction: row;
+    }
+    .tempoMercado .container > div{
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    .imgCircular{
+      margin: 20px;
+      width: 450px;
+    }
+
+    .tempoMercado .container > div div:nth-child(2){
+      margin: 20px;
+      padding: 10px;
+      border-left: 2px solid #533e3d;
+      border-top: none;
+    }
+
+    .carrossel img{
+      width: 500px;
+    }
+  
+    .carrossel{
+      width: 500px;
+      height: 281px;
+    }
+  
+    .carrossel ul{
+      width: 1500px;
+    }
+  
+    .carrossel li{
+      left: -500px;
+    }
+  
+    @keyframes slide{
+      0%{left: 0px;}
+  
+      20%{
+        left: 0px;
+      }
+      
+      30%{left: -500px;}
+  
+      50%{
+        left: -500px;
+      }
+  
+      60%{
+        left: -1000px;
+      }
+  
+      90%{
+        left: -1000px;
+      }
+  
+      100%{
+        left: 0px;
+      }
+    }
+    
+  }
